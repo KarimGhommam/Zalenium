@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Suite]">
+  <test parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="testsCases.ExecuteTestZaleniumFirefox2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testsCases.ExecuteTestZaleniumFirefox2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
